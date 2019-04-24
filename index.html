@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="index.css" type="text/css" rel="stylesheet" />
     <!-- <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script> -->
-    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
     <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
     <script src="video.js" defer></script>
   </head>
@@ -26,31 +26,21 @@
         </div> <!-- End menu block -->
 
 
-        <div id="vrview">
-          <a-scene>
+        <div id="video">
+          <!-- <a-scene>
             <a-assets>
-              <!-- <img id="vidSrc" src="FLY15601.mp4"> -->
               <video id="vidsrc" autoplay loop="true" src="FLY15601.mp4"></video>
             </a-assets>
-          </a-scene>
-          <!-- <iframe height="400px" width="650px" allowfullscreen="true" src="https://momento360.com/e/u/bfde5f518ec24631828c3ba57f2d358b?utm_campaign=embed&utm_source=other&utm_medium=other&heading=257.871508388223&pitch=-15.999848989518341&field-of-view=75"> </iframe> -->
+
+            <a-videosphere src="#vidsrc"></a-videosphere>
+          </a-scene> -->
+          <a href="video.html"><img src="Pics/HUB.jpg" alt="Image" height="350" width=auto></a>
+
+          </div> <!-- End video div -->
 
           <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HqmBa8FPMx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
-          <!-- <p> There will one day be a 360 video here...</p> -->
-          <!-- <a-scene>
-            <a-assets>
-              <video id="test" autoplay loop="true" src="FLY15601_LamsonTest_injected.mp4"> </video>
-            </a-assets>
-
-            <!-- Using the asset management system. -->
-            <!-- <a-videosphere src="#test"></a-videosphere>
-
-            <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-            <!-- <a-videosphere src="africa.mp4"></a-videosphere> -->
-          <!-- </a-scene> -->
-        </div> <!-- End vrview div -->
 
         <!-- <div id="controls">
           <div id="toggleplay" class="paused"></div>
@@ -59,7 +49,6 @@
           <div id="togglemute"></div>
           <div id="togglefullscreen"></div>
         </div> -->
-
 
         <div id="info">
           <p> Here's some placeholder test for now, eventually I'd love to pull this info in from an array or something.
@@ -77,8 +66,8 @@
           <p>Here at Grandma's Pies, we painstakingly craft some sort of VR media so I can pass this class and graduate. </p>
         </div> <!-- End textblock div -->
 
-        <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
-        <script src="video.js"></script>
+        <!-- <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+        <script src="video.js"></script> -->
 
       </div> <!-- End inner div -->
     </div> <!-- End outer div -->
